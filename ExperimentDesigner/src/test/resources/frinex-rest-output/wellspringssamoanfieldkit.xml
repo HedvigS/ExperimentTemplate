@@ -70,7 +70,7 @@
         </loadAllStimulus>
     </presenter>
     <presenter back="Welcome" displayOrder="8" menuLabel="Va''ai i le ata (look at the picture)" type="stimulus" self="Stimulus" title="Va''ai i le ata (look at the picture)">
-        <loadSdCardStimulus eventTag="Va'ai i le ata (look at the picture)" randomise="true" repeatRandomWindow="0" maxStimuli="1000" repeatCount="1">
+        <loadSdCardStimulus eventTag="Va'ai i le ata (look at the picture)" randomise="false" repeatRandomWindow="0" maxStimuli="1000" repeatCount="1">
             <hasMoreStimulus>
                 <startAudioRecorder eventTag="Va'ai i le ata (look at the picture)" wavFormat="true" filePerStimulus="true"/>
                 <startAudioRecorderTag eventTier="1"/>
